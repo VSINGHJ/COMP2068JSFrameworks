@@ -44,8 +44,3 @@ prompt.get(['Your_Selection'], function (err, result) {
     console.log("Computer Wins");
   }
 });
-
-function onErr(err) {
-  console.log(err);
-  return 1; // If an error occured, 1 will get returned
-}
